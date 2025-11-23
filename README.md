@@ -11,3 +11,12 @@ vim-cmd solo/registervm /vmfs/volumes/Datastore1/MyNewVM/MyNewVM.vmx
 
 
 นำไฟล์ .vmx วางไว้ใน folder และแก้ไขค่า vmdx ต่างๆให้ตรงกับ vmdx file ที่ใช้
+
+
+
+การ setup network หาก network ไม่สามารถติดต่อกับภายนอกได้ ให้ตั้งค่า default gateway
+```bash
+route add default 192.168.1.1
+```
+
+
