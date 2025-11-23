@@ -1,4 +1,9 @@
 ```bash
+docker build -t evconsole .
+```
+
+
+```bash
 vmkfstools -i /vmfs/volumes/datastore1/SCOmfg/sco-unix-5.0.7-1.vmdk /vmfs/volumes/datastore1/SCOmfg/SCOmfg.vmdk -d thin
 ```bash
 คำสั่งนี้จะทำการโคลนไฟล์ .vmdk เดิมไปเป็น SCOmfg.vmdk ในรูปแบบ Thin Provisioned ตามที่คุณต้องการครับ
